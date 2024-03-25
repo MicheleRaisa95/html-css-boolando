@@ -27,7 +27,7 @@ footer {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: red;
+  
    
 }
 
@@ -38,10 +38,10 @@ footer {
 }
 
 .col-33 {
-    height: 40px;
+   
     margin: 10px;
     width: calc(100% / 3 - 20px);
-    border: 1px solid black;
+   
 }
    
 .col-100 {
@@ -53,4 +53,43 @@ footer {
 /*classe di utility*/
 .align-item {
     align-items: center;
+}
+.width {
+    width: 100%;
+}
+
+.unlisted-list {
+    list-style: none;
+}
+
+.unlisted-list li {
+    display: inline-block;
+   padding: 0 15px;
+}
+
+.unlisted-list a {
+
+    color: #fff;
+        text-decoration: none;
+}
+
+.unlisted-list span {
+
+    color: #fff;
+    
+}
+
+.logo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.text-center {
+    text-align: center;
 }
