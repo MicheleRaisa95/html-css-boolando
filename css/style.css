@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: orange;
+    padding: 15px 15px;
+    z-index: 1;
+}
+
+main {
+    padding-top: 100px;
+    background-color: blue;
+    height: 500px;
+}
+
+footer {
+    background-color: green;
+
+}
+
+/*classi di layout*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: red;
+   
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.col-33 {
+    height: 40px;
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+    border: 1px solid black;
+}
+   
+.col-100 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+/*classe di utility*/
+.align-item {
+    align-items: center;
+}
