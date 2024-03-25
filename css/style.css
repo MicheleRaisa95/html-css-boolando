@@ -102,17 +102,20 @@ footer {
 
 .discount-label {
     position: absolute;
-    bottom: 20px;
+    bottom: 100px;
+    color: #fff;
 
 }
 .sustainability-label {
 position: absolute;
-bottom: 20px;
+bottom: 100px;
 left: 40px;
+color: #fff;
 }
 .label-left {
     position: absolute;
-    bottom: 20px;
+    bottom: 100px;
+    color: #fff;
 }
 
 .bg-red {
@@ -144,5 +147,23 @@ left: 40px;
 }
 .content:hover .hover-image {
     display: block;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price {
+    color: red;
+}
+
+.old-price {
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
 }
 /*fine classi di utility*/
