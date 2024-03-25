@@ -14,8 +14,6 @@ header {
 
 main {
     padding-top: 100px;
-    background-color: blue;
-    height: 500px;
 }
 
 footer {
@@ -48,6 +46,13 @@ footer {
     height: 100px;
     width: 100px;
     border: 1px solid black;
+}
+
+.content {
+ position: relative;  
+}
+.content img {
+    width: 100%;
 }
 
 /*classe di utility*/
@@ -92,4 +97,28 @@ footer {
 
 .text-center {
     text-align: center;
+
 }
+
+.discount-label {
+    position: absolute;
+    bottom: 20px;
+
+}
+.sustainability-label {
+position: absolute;
+bottom: 20px;
+left: 40px;
+}
+.label-left {
+    position: absolute;
+    bottom: 20px;
+}
+
+.bg-red {
+    background-color: red;
+}
+.bg-green {
+    background-color: green;
+}
+/*fine classi di utility*/
